@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
 
 
 body {
@@ -33,7 +34,16 @@ body {
 
 .row1,
 .row2 {
-  margin-top: 10vh;
+  margin-top: 2vh;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10vh;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+  color: #FDE74C;
+  margin-bottom: 0;
+  font-family: 'Rubik Marker Hatch', cursive;
 }
